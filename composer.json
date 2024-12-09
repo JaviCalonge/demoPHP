@@ -1,0 +1,26 @@
+{
+    "name": "usuario/demo",
+    "authors": [
+        {
+            "name": "Javi Calonge",
+            "email": "javicalongem@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^11.34"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
